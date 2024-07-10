@@ -1,9 +1,9 @@
 {
-    "name": "kenjis/monkey-patch",
+    "name": "bdurkovic/monkey-patch",
     "type": "library",
     "description": "Monkey patching for exit(), functions, methods, and constants",
     "keywords": ["monkey patch","monkey patching","mock","testing","phpunit"],
-    "homepage": "https://github.com/kenjis/monkey-patch",
+    "homepage": "https://github.com/bdurkovic/monkey-patch",
     "license": "MIT",
     "authors": [
         {
@@ -15,12 +15,12 @@
         "php": "^7.3 || ^8.0",
         "ext-openssl": "*",
         "ext-tokenizer": "*",
-        "phpunit/phpunit": "^9.5",
-        "nikic/php-parser": "^4.10"
+        "nikic/php-parser": "^5.1"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.4",
-        "kenjis/phpunit-helper": "^1.1"
+        "kenjis/phpunit-helper": "^1.1",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
